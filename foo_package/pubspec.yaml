@@ -1,0 +1,14 @@
+name: outer
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.5.0-153 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  # This version DOES have `use_super_parameters`
+  flutter_lints: ^3.0.0

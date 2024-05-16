@@ -1,0 +1,17 @@
+name: outer
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.5.0-153 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  # This version does NOT have `use_super_parameters`
+  # Change this to 3.x causes the lint to trigger, but
+  # it seems like on older SDKs the lint would trigger
+  # anyway.
+  flutter_lints: ^2.0.0
